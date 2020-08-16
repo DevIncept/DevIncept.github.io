@@ -4,12 +4,24 @@
         <loc>https://devincept.tech/faq.html</loc>
     </url>
     <url>
-        <loc>https://devincept.tech/features.html</loc>
-    </url>
-    <url>
         <loc>https://devincept.tech/index.html</loc>
     </url>
     <url>
+        <loc>https://devincept.tech/ML.html</loc>
+    </url>
+    <url>
+        <loc>https://devincept.tech/NLP.html</loc>
+    </url>
+    <url>
+        <loc>https://devincept.tech/preregistration.html</loc>
+    </url>
+    <url>
         <loc>https://devincept.tech/pricing.html</loc>
+    </url>
+    <url>
+        <loc>https://devincept.tech/python.html</loc>
+    </url>
+    <url>
+        <loc>https://devincept.tech/TF.html</loc>
     </url>
 </urlset>
