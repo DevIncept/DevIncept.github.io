@@ -26,12 +26,15 @@ const formatDate = (dateString) => {
             <div class="card">
                 <img class="blog-card-img" src="https://res.cloudinary.com/dlomjljb6/image/upload/v1/${
                   value.fields.thumbnail
-                }" alt="Bologna">
+                }" alt="Thumbnail">
+                <div class="card-img-overlay">
+                  <a style="color:black;" class="btn btn-light btn-sm">${value.fields.categories}</a>
+                </div>
                 <div class="card-body">
                 <h4 class="blog-card-title">${value.fields.title}</h4>
                 <div class="views mb-3"><small style="color:grey;">Posted on ${formatDate(
                   value.fields.timestamp
-                )}</small></div>
+                )} by ${value.fields.author}</small></div>
                 <p class="card-text">${value.fields.seo_overview}</p>
                 <a href="https://ireadblog.com/posts/${value.pk}/${
         value.fields.slug
