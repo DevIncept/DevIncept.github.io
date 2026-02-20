@@ -1,4 +1,324 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Define Solutions | Website & Digital Growth Experts</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 40px;
+    text-align: center;
+    background: linear-gradient(135deg, #111, #222);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hero button:hover {
+    background: #0097a7;
+}
+
+/* SECTION */
+.section {
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.section h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.service-card h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* PRICING */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.price-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.price-card h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.price-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.price-card ul li {
+    margin-bottom: 8px;
+}
+
+.price-card button {
+    padding: 10px 20px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.price-card button:hover {
+    background: #00bcd4;
+}
+
+/* CONTACT */
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    padding: 12px 20px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact button:hover {
+    background: #0097a7;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>Define Solutions</h1>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h2>We Define Your Digital Presence</h2>
+    <p>We build powerful, modern websites for businesses that want to grow online. Fixed pricing. Clean design. Zero complexity.</p>
+    <button onclick="document.getElementById('contact').scrollIntoView()">Get Started</button>
+</section>
+
+<section id="services" class="section">
+    <h3>Our Services</h3>
+    <div class="services">
+        <div class="service-card">
+            <h4>Website Development</h4>
+            <p>Modern, responsive websites built for hotels, academies, restaurants and growing businesses.</p>
+        </div>
+        <div class="service-card">
+            <h4>UI & Branding</h4>
+            <p>Clean logos, brand identity, and professional design systems that reflect your business quality.</p>
+        </div>
+        <div class="service-card">
+            <h4>SEO Optimization</h4>
+            <p>Improve visibility on Google Maps and search engines to attract more customers organically.</p>
+        </div>
+        <div class="service-card">
+            <h4>Maintenance & Support</h4>
+            <p>We manage hosting, updates and technical maintenance so you never worry about your website again.</p>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="section">
+    <h3>Simple Pricing</h3>
+    <div class="pricing">
+        <div class="price-card">
+            <h4>Starter</h4>
+            <h2>₹15,000</h2>
+            <ul>
+                <li>5 Page Website</li>
+                <li>Domain + Hosting</li>
+                <li>WhatsApp Integration</li>
+                <li>6 Months Support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+        <div class="price-card">
+            <h4>Professional</h4>
+            <h2>₹20,000</h2>
+            <ul>
+                <li>Custom Design</li>
+                <li>SEO Basics</li>
+                <li>Google Maps Setup</li>
+                <li>1 Year Support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <h3>Contact Us</h3>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Business Name">
+        <textarea rows="5" placeholder="Tell us about your project"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Define Solutions | All Rights Reserved
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -672,3 +992,4 @@ Compete with other participants in weekly project-based assignments."
     <script src="assets/js/script.min.js"></script>
   </body>
 </html>
+-->
